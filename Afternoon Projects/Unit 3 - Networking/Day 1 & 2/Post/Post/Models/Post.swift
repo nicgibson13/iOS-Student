@@ -8,13 +8,14 @@
 
 import Foundation
 
-struct Post {
+struct Post: Codable {
     var text: String
     var timestamp: TimeInterval
     var username: String
     
     init(text: String, timestamp: TimeInterval = Date().timeIntervalSince1970, username: String) {
         self.text = text
+        self.timestamp = timestamp
         self.username = username
     }
 }
