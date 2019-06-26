@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		7CA80F0722C1630C000F3938 /* Post.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CA80F0622C1630C000F3938 /* Post.swift */; };
 		7CA80F0A22C16630000F3938 /* PostController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CA80F0922C16630000F3938 /* PostController.swift */; };
+		7CA80F0D22C17B6E000F3938 /* PostListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CA80F0C22C17B6E000F3938 /* PostListViewController.swift */; };
 		B755BB7A219DE7EC00A9E085 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B755BB79219DE7EC00A9E085 /* AppDelegate.swift */; };
 		B755BB7F219DE7EC00A9E085 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B755BB7D219DE7EC00A9E085 /* Main.storyboard */; };
 		B755BB81219DE7ED00A9E085 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B755BB80219DE7ED00A9E085 /* Assets.xcassets */; };
@@ -18,6 +19,7 @@
 /* Begin PBXFileReference section */
 		7CA80F0622C1630C000F3938 /* Post.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Post.swift; sourceTree = "<group>"; };
 		7CA80F0922C16630000F3938 /* PostController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostController.swift; sourceTree = "<group>"; };
+		7CA80F0C22C17B6E000F3938 /* PostListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostListViewController.swift; sourceTree = "<group>"; };
 		B755BB76219DE7EC00A9E085 /* Post.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Post.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B755BB79219DE7EC00A9E085 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B755BB7E219DE7EC00A9E085 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -72,6 +74,14 @@
 			path = "Model Controller";
 			sourceTree = "<group>";
 		};
+		7CA80F0E22C17B71000F3938 /* View Controller */ = {
+			isa = PBXGroup;
+			children = (
+				7CA80F0C22C17B6E000F3938 /* PostListViewController.swift */,
+			);
+			path = "View Controller";
+			sourceTree = "<group>";
+		};
 		B755BB6D219DE7EC00A9E085 = {
 			isa = PBXGroup;
 			children = (
@@ -94,6 +104,7 @@
 				B755BB77219DE7EC00A9E085 /* Products */,
 				7CA80F0422C162E2000F3938 /* Resources */,
 				7CA80F0B22C16634000F3938 /* Model Controller */,
+				7CA80F0E22C17B71000F3938 /* View Controller */,
 				7CA80F0822C1630F000F3938 /* Models */,
 				7CA80F0522C162FA000F3938 /* UI */,
 			);
@@ -171,6 +182,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7CA80F0D22C17B6E000F3938 /* PostListViewController.swift in Sources */,
 				B755BB7A219DE7EC00A9E085 /* AppDelegate.swift in Sources */,
 				7CA80F0722C1630C000F3938 /* Post.swift in Sources */,
 				7CA80F0A22C16630000F3938 /* PostController.swift in Sources */,
