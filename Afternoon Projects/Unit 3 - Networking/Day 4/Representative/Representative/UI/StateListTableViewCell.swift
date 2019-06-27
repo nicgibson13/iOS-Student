@@ -27,7 +27,7 @@ class StateListTableViewCell: UITableViewCell {
         guard let rep = rep else {return}
         self.nameLabel.text = rep.name
         self.partyLabel.text = rep.party
-        self.districtLabel.text = rep.district
+        self.districtLabel.text = "District: \(rep.district)"
         self.websiteLabel.text = rep.link
         self.phoneNumberLabel.text = rep.phone
     }
